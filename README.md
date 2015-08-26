@@ -17,9 +17,9 @@ var cat = require('lifeOfCat');
 <br>
 
 # example
-```
-cat.throwIt('glass'); //Hmm meow! (Zhehehe, I fucking throw it...)
-```
+
+cat.throwIt('glass');  `//Hmm meow! (Zhehehe, I fucking throw it...)`
+
 <br>
 
 
