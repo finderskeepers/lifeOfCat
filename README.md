@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/mJ06mHz.jpg" width = "300" height = "300">
+![Logo](http://i.imgur.com/ebNPxmX.jpg?1)
 
 # lifeOfCat
 
