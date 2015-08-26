@@ -1,0 +1,13 @@
+{
+	"name": "lifeOfCat",
+	"version": "0.0.0",
+	"description": "magical life of cats!",
+	"main": "lifeOfCat.js",
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/finderskeepers/lifeOfCat"
+	},
+
+	"author": "finderskeepers"
+}
