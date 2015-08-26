@@ -29,4 +29,4 @@ git push origin (what-i-did)
 ```
 <br><br>
 
-special thanks to @erayarslan
+special thanks to [@erayarslan](https://github.com/erayarslan)
