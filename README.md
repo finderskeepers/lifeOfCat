@@ -6,7 +6,7 @@ An extraordinary life circle a simple(!) cat.
 
 # install
   ```
-  npm install lifeOfCat (will be coming soon)
+  npm install lifeofcat
   ```
 <br>  
   
