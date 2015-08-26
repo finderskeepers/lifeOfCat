@@ -1,4 +1,4 @@
-![Logo](http://i.imgur.com/ebNPxmX.jpg?1)
+![Logo](http://i.imgur.com/ebNPxmX.jpg)
 
 # lifeOfCat
 
