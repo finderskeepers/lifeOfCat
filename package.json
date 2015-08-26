@@ -1,13 +1,24 @@
 {
-	"name": "lifeOfCat",
-	"version": "0.0.0",
-	"description": "magical life of cats!",
-	"main": "lifeOfCat.js",
-
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/finderskeepers/lifeOfCat"
-	},
-
-	"author": "finderskeepers"
+  "name": "lifeofcat",
+  "version": "0.0.1",
+  "description": "magical life of cats!",
+  "main": "lifeOfCat.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finderskeepers/lifeOfCat.git"
+  },
+  "author": "finderskeepers",
+  "bugs": {
+    "url": "https://github.com/finderskeepers/lifeOfCat/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "life",
+    "cat",
+    "lifeOfCat"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/finderskeepers/lifeOfCat#readme"
 }

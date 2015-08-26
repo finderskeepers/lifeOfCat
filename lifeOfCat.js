@@ -31,10 +31,10 @@ var cat = function(yourCat){
 	//new troublemakers are loading...
 	function newMeows(name, color, age){
 		new cat{
-			name: name,
-			color: color,
-			age: age,
-			sex: random(0, 1) ? "male" : "female"
+		  name: name,
+		  color: color,
+		  age: age,
+		  sex: random(0, 1) ? "male" : "female"
 		};
 
 		cats.push(cat);
@@ -43,22 +43,23 @@ var cat = function(yourCat){
 
 	this.growUp = function(){		//a minute is 1 such WOW....... boring new age.
 		life = setInterval(function(){
-			this.age++;
-			this.happiness -= 5;
+		  this.age++;
+		  this.happiness -= 5;
 		}, 60000);
 	};
 
 
 	this.death = function(){		//I can't endure hooomans stupidity anymore.
 		if(this.age > 10)
-			clearInterval(life);
+		  clearInterval(life);
 	};
 
 
 	this.flee = function(){			//That's it, bye.
-		if(this.happiness < -50)
-			cat = null;
-			cats = [];
+		if(this.happiness < -50){
+		  cat = null;
+		  cats = [];
+		}  
 	};
 
 
@@ -68,9 +69,10 @@ var cat = function(yourCat){
 
 
 	this.feedMeHooman = function(){
-		if(this.isHungry())		//always...
-			this.happiness -= 20;
-			throw new Error("WHERE IS MY FUCKING FOOD HOOOOOMAN???");
+		if(this.isHungry()){	//always...
+		  this.happiness -= 20;
+		  throw new Error("WHERE IS MY FUCKING FOOD HOOOOOMAN???");
+		}
 	};
 
 
@@ -82,8 +84,8 @@ var cat = function(yourCat){
 
 	this.giveAFuck = function(thing){
 		if(thing != "food"){		//What's in it what's in it c'moooooooon
-			throw new Error("Hmm, meow!" + " (There is no food, and no reason to give a fuck!)");
-			return false;
+		  throw new Error("Hmm, meow!" + " (There is no food, and no reason to give a fuck!)");
+		  return false;
 		}
 			
 		else{				//Don't you see? I'm busy...
@@ -95,11 +97,11 @@ var cat = function(yourCat){
 
 	this.throwIt = function(thing){
 		if(thing == 'unbreakable')	//Hmmm let me see, is it breakable??
-			continue;		//No? Nevermind...
+		  continue;		//No? Nevermind...
 		
 		else				//Yes?
-			this.happiness += 50;	//Because I'm happy :3
-			throw new Error("Hmmm, meow!" + " (Zhehehe, I fucking throw it...)");
+		  this.happiness += 50;	//Because I'm happy :3
+		  throw new Error("Hmmm, meow!" + " (Zhehehe, I fucking throw it...)");
 	};
 
 
@@ -108,19 +110,19 @@ var cat = function(yourCat){
 		var month = date.getMonth();
 
 		if(month == 2){ 		//Behoooold humans, March is coming....
-			this.getBaby(random(1, 100)); //It is impossible not to get pregnant, so 1...
-			this.happiness += 10;
-			return true;
+		  this.getBaby(random(1, 100)); //It is impossible not to get pregnant, so 1...
+		  this.happiness += 10;
+		  return true;
 		}
 
 		else				//No March no babies...
-			return false;
+		  return false;
 	};
 
 
 	this.getBaby = function(value){		//Sssssh wait, new troublemakers are coming...
 		for(var i = 0; i < value; i++)
-			new newMeows('meow' + cats.length , colors[random(0,5)], 0);
+		  new newMeows('meow' + cats.length , colors[random(0,5)], 0);
 	};
 	
 };
