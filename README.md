@@ -18,9 +18,12 @@ var cat = require('lifeOfCat');
 
 # example
 ```
-cat.throwIt('glass); //Hmm meow! (Zhehehe, I fucking throw it...)
+cat.throwIt('glass'); //Hmm meow! (Zhehehe, I fucking throw it...)
 ```
 <br>
 
 
-Push requests -> `git push origin (what-i-did)`
+# Push requests
+```
+git push origin (what-i-did)
+```
