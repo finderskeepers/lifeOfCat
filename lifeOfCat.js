@@ -34,8 +34,11 @@ var cat = function (yourCat) {
       age: age,
       sex: random(0, 1) ? "male" : "female"
     });
-
-    cats.push(newCat);
+      if( name === 'serafettin' || name === 'sero' ){  // kotu kedi serafettin detect.
+        throw new Error("he is most spesific cat of all the world. NOT BORN AGAIN!!!");
+      }else {
+        cats.push(newCat);
+      }
   };
 
 
